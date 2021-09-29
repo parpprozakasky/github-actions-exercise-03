@@ -1,12 +1,29 @@
 {
   "name": "github-actions-exercise-03",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./tests/* --exit",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parpprozakasky/github-actions-exercise-03.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parpprozakasky/github-actions-exercise-03/issues"
+  },
+  "homepage": "https://github.com/parpprozakasky/github-actions-exercise-03#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
