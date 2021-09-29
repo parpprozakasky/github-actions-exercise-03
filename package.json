@@ -20,6 +20,7 @@
   "homepage": "https://github.com/parpprozakasky/github-actions-exercise-03#readme",
   "description": "",
   "devDependencies": {
+    "mocha": "^9.1.2",
     "nodemon": "^2.0.13",
     "supertest": "^6.1.6"
   },
